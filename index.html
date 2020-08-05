@@ -10,50 +10,12 @@
 <meta name="author" content="Belweb"/>
 <meta name="copyright" content="Belweb"/>
 <meta name="robots" content="all"/>
-<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="shortcut icon" href="favicon.ico"/>
 <link rel="stylesheet" href="style/normalize.css" type="text/css">
 <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
 	<script src="js/css3-mediaqueries.js"></script>
 <![endif]-->
-<style>
-    /* RESET CSS */
-    html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, 
-    a, ul, li, article, main, footer, header, nav, section {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-    article, main, footer, header, nav, section {
-        display: block;
-    }
-    ul {
-        list-style: none;
-    }
-    /* Fim Eric Meyer reset */
-    /* utilidades */
-    *, *:before, *:after {
-      -moz-box-sizing: border-box; 
-        -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    }
-    .cf:before,
-    .cf:after {
-        content: " "; 
-        display: table;
-    }
-    .cf:after {
-        clear: both;
-    }
-    .cf {
-        *zoom: 1;
-    }
-
-</style>
 </head>
 <body id="home">
     <div class="tudo">
@@ -61,9 +23,20 @@
             <h1>Portal</h1>
         </header>   
         
-        <nav>
-            NAVEGAÇÂO
-        </nav>    
+        <nav class="navegacao" aria-haspopup="true"><!-- NAV conteúdo principal da página -->
+				<h2 class="menu-icon" onClick="void(0)">Menu <span>&equiv;</h2>
+
+				<ul class="menu">
+					<li><a href="#" class="home">Home</a></li>
+					<li><a href="#" class="sedes">Sedes</a></li>
+					<li><a href="#" class="fotos">Fotos</a></li>
+					<li><a href="#" class="grupos">Grupos</a></li>
+					<li><a href="#" class="jogos">Jogos</a></li>
+					<li><a href="#" class="ingressos">Ingressos</a></li>
+					<li><a href="#" class="transporte">Transporte</a></li>	
+				</ul>	
+
+			</nav>
         
         <div class="busca">
             BUSCA
@@ -72,6 +45,91 @@
     <main>    
         <section class="slide-show">
             SLIDE SHOW
+			<header>
+				<hgroup>
+
+					<h1> </h1>
+					<h2> </h2>
+
+				</hgroup>
+
+			</header>
+
+		<div class="bloco">
+
+			<h2></h2>
+			<p></p>
+
+		</div>
+
+		<div class="bloco">
+
+			<h3>  <span></span></h3>
+			<blockquote><p>  </p></blockquote>
+
+		</div>
+
+		<div class="bloco">
+			
+			<h3> <span></span></h3>
+			<blockquote><p>  </p></blockquote>
+
+		</div>	
+
+		<div class="bloco">
+			
+			<h3></h3>
+			<blockquote><p>  </p></blockquote>
+
+		</div>	
+
+		<div class="bloco">
+		<h3>  <span> </span></h3>
+		<blockquote><p> </p></blockquote>
+		</div>
+
+		<small></small>
+
+        <!-- <aside segunda parte da página -->
+<aside class="auxiliar">
+	<h1> </h1>
+
+	    <article>
+		<header>
+			<h2></h2>
+			<small></small>
+		</header>
+			<p><a href="#"></a></p>
+	    </article>
+
+		<article>
+		<header>
+			<h2></h2>
+			<small></small>
+		</header>
+
+			<p><a href="#"></a></p>
+	</article>
+
+
+		<article>
+		<header>
+			<h2></h2>
+			<small></small>
+		</header>
+			<p><a href="#"></a></p>
+	    </article>
+
+	    <article>
+			<header>
+            	<h2></h2>
+                <small></small>
+			</header>
+            <p><a href="#"></a></p> 
+		</article>
+</aside>
+</main>	
+        <!--
         </section>
         
         <div class="noticias">
@@ -80,11 +138,10 @@
     
         <div class="informacoes">
             INFORMAÇÕES
-        </div>
-    </main>
-        
+        </div> -->
         <footer>
             RODAPE
+            <small>Guia Portal  </small>
         </footer>
     </div> <!-- /.tudo -->
     </body>
